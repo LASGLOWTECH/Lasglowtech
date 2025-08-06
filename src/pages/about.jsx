@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCircle } from "react-icons/fa";
-import { CEO, Myvide, Gradient } from "../components/images";
+import { CEO, Myvide, Gradient, Contactimg } from "../components/images";
 import Subscription from "../components/sections/subscription";
 import { Link } from "react-router-dom";
 import SEO from "../utils/seo";
@@ -11,7 +11,7 @@ const About = () => {
   const refreshAOS = useAOS();
 
   return (
-    <div className="relative bg-gradient-to-r px-6 md:px-20 mx-auto py-16">
+    <div className="relative bg-gradient-to-r from-bgcolor2 to-bgcolor2 px-6 md:px-20 mx-auto py-16">
       {/* SEO Tags */}
       <SEO
         title="About Us | Lasglotech"
@@ -22,10 +22,10 @@ const About = () => {
 
       {/* Background Image */}
       <div
-        className="fixed inset-0 w-full h-full bg-cover bg-center z-[-1]"
-        style={{ backgroundImage: `url(${Gradient})` }}
+        className="fixed inset-0 w-full   h-full bg-cover bg-center z-[-1]"
+        style={{ backgroundImage: `url(${Contactimg})` }}
       >
-        <div className="absolute inset-0 bg-bgcolor/70" />
+        <div className="absolute inset-0 bg-bgcolor/50" />
       </div>
 
       {/* Header Section */}
@@ -57,7 +57,7 @@ const About = () => {
           {/* Video */}
           <div
             className="w-full flex justify-center overflow-hidden"
-            data-aos="slide-down"
+            
           >
             <video
               src={Myvide}

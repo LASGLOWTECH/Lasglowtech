@@ -39,7 +39,7 @@ const cardVariants = {
 
 const MeetTheTeam = () => {
     return (
-        <section className="bg-bgcolor text-white py-16 ">
+        <section className="bg-gradient-to-r from-bgcolor2 to-bgcolor2 text-white py-16 ">
 
             <div className="pb-16 mx-auto ">
                 <h2 className="text-3xl md:text-4xl font-bold text-center ">

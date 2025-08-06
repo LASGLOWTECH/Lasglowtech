@@ -33,7 +33,7 @@ export default function Navbar() {
 
 
 
-        <div className=' z-50 fixed  px-6  bg-gradient-to-r from-bgcolor2 to-bgcolor2  w-full md:px-24'>
+        <div className=' z-50   px-6  bg-gradient-to-r from-bgcolor2 to-bgcolor2  w-full md:px-24'>
 
             <div className="  mx-auto flex  justify-between  w-full items-center   py-4  ">
 

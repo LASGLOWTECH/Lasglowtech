@@ -4,6 +4,7 @@ import SEO from "../utils/seo";
 import useAOS from "../hooks/useAos";
 import Subscription from "../components/sections/subscription";
 import { Gradient, Land1 , Land2, Slide1,Graphic1,Graphic2, Web1, Mobile1  } from "../components/images";
+import PortfolioTabs from "../components/sections/portfoliotabs";
 const portfolioItems = [
     {
         title: "E-Commerce Website",
@@ -89,7 +90,7 @@ export default function Portfolio() {
                     ))}
                 </div>
             </div>
-
+            <PortfolioTabs />
 
             <Subscription />
         </div>

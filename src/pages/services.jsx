@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SEO from "../utils/seo";
-import { Gradient, Land1, Land2, Slide1, Graphic1, Graphic2, Web1, Mobile1 } from "../components/images";
+import { Gradient, Land1, Land2, Slide1, Graphic1, Graphic2, Web1, Mobile1, Contactimg } from "../components/images";
 import Subscription from "../components/sections/subscription";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
@@ -113,10 +113,10 @@ export default function Services() {
       />
 
       <div
-        className="absolute amimate-pulse inset-0 bg-cover min-h-screen   bg-center"
-        style={{ backgroundImage: `url(${Gradient})` }}
+        className="absolute  inset-0 bg-cover min-h-screen    w-full   h-full   z-[-1] bg-center"
+        style={{ backgroundImage: `url(${Contactimg})` }}
       >
-        <div className="absolute bg-center bg-cover inset-0 bg-bgcolor/80" />
+        <div className="absolute bg-center bg-cover inset-0 bg-bgcolor/50" />
       </div>
 
       <div className=" relative z-10  overflow-hidden">
