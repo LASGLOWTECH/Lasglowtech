@@ -9,19 +9,19 @@ const Hero = () => {
       
       {/* Background Image (semi-transparent over gradient) */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-10 z-0"
+        className="absolute inset-0 bg-cover bg-center opacity-20 z-0"
         style={{ backgroundImage: `url(${HeroImage})` }}
       ></div>
 
       {/* Hero Content */}
-      <section className="relative z-10 py-36 px-4 md:px-20">
+      <section className="relative z-10   md:px-20">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="max-w-3xl mx-auto text-center"
+          className="max-w-4xl mx-auto text-center"
         >
-          <h1 className="text-4xl  md:text-6xl  font-bold text-textcolor2 max-w-5xl leading-tight   mb-4 mt-16">
+          <h1 className="text-[40px] font-bold  px-2 pt-24 md:pt-0 md:text-[70px] md:font-semibold text-textcolor2 max-w-5xl leading-[40px] md:leading-[70px] md:mt-10 mb-6">
             We Enhance Your Business with our  <br></br>
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-Secondarycolor to-Secondarycolor">
               <Typewriter
