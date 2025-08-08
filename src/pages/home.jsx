@@ -16,7 +16,7 @@ const Home = () => {
                    title="Home | Lasglowtech Digital Services"
                     description="Welcome to Lasglowtech Digital Services  , where we transform ideas to reality"
                     keywords="Home, Lasglowtech digital services"
-                    url="https://www.lasglowtech.com.ng.com/home"
+                    url="https://www.lasglowtech.com.ng.com"
                 
                   />
             <Hero />
