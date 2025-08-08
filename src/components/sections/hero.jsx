@@ -50,7 +50,7 @@ const Hero = () => {
               to="/contact"
               className="inline-block px-8 py-3 bg-gradient-to-r from-Primarycolor to-Primarycolor1 hover:from-Secondarycolor hover:to-Secondarycolor shadow-lg text-white font-semibold rounded-full transition-all duration-300"
             >
-              Get In Touch
+              Learn More
             </Link>
           </div>
         </motion.div>

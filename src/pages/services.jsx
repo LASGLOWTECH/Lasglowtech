@@ -197,18 +197,7 @@ export default function Services() {
               </AnimatePresence>
             </div>
           </section>
-          {/* <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-                    {services.map((service, idx) => (
-                        <div
-                            key={idx}
-                            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition-shadow"
-                        >
-                            <div className="mb-4">{service.icon}</div>
-                            <h2 className="text-xl font-semibold mb-2 text-gray-800">{service.title}</h2>
-                            <p className="text-gray-600">{service.description}</p>
-                        </div>
-                    ))}
-                </div> */}
+       
         </div>
 
       </div>

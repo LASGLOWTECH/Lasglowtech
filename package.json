@@ -10,10 +10,9 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-
   "engines": {
-  "node": ">=20"
-},
+    "node": ">=20"
+  },
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^1.11.0",
@@ -28,7 +27,8 @@
     "react-router-dom": "^6.17.0",
     "react-scroll-trigger": "^0.6.14",
     "react-simple-typewriter": "^5.0.1",
-    "react-toastify": "^11.0.5"
+    "react-toastify": "^11.0.5",
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

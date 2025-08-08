@@ -24,6 +24,7 @@ import Smiggle from '../assets/images/Smiggle.png';
 import NMI from '../assets/images/NMI.png';
 import Gradient from '../assets/images/gradient.png';
 import Myvide  from '../assets/videos/myvideo.mp4';
+import Aboutimg  from '../assets/images/Aboutimg.jpg';
 // Team images
 import Osaz from '../assets/images/Austinosaz.jpg';
 import Chimex from '../assets/images/Chimex.jpg';
@@ -51,6 +52,7 @@ Contactimg,
 // ABOUT Us
 CEO,
 // Partners
+Aboutimg,
 Ur9, Phoenixs, Qlogo, Fgroup, Dtech, Pelifts, Smiggle, NMI,
 Myvide, Gradient,
 // team
