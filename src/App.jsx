@@ -1,5 +1,4 @@
 import {
-  
   Routes,
   Route,
 } from "react-router-dom";
@@ -13,26 +12,29 @@ import Home from "./pages/home";
 import NotFound from "./pages/not-found";
 import SingleService from "./pages/singleservice";
 import ScrollTop from "./components/scroll";
+import SiteLoader from "./components/loader";
+
 function App() {
   return (
-  
-      <>
-        <Navbar />
+    <>
+      {/* Loader appears first */}
+      <SiteLoader />
 
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-           <Route path="/services/:slug" element={<SingleService />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+      <Navbar />
 
-        <Footer />
-        <ScrollTop />
-      </>
-  
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/services/:slug" element={<SingleService />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+
+      <Footer />
+      <ScrollTop />
+    </>
   );
 }
 

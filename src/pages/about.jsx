@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCircle } from "react-icons/fa";
-import { CEO, Myvide, Gradient, Contactimg, Aboutimg } from "../components/images";
+import { CEO, Gradient, Contactimg, Aboutimg } from "../components/images";
 import Subscription from "../components/sections/subscription";
 import { Link } from "react-router-dom";
 import SEO from "../utils/seo";

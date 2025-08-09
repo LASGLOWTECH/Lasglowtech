@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 // import instance from '../config/axios.config'
-import { Slide3 ,Myvide} from '../images'
+import { Slide3 ,} from '../images'
 import { HeroImage } from '../images';
 import { toast } from 'react-toastify';
 

@@ -30,7 +30,7 @@ import Smiggle3 from '../assets/images/SM280325.jpg';
 import Smiggle4 from '../assets/images/SM280326.jpg';
 import heroimage from '../assets/images/heroimage.jpg';
 import fiftyreign  from '../assets/images/50reign.jpg';
-import Myvide  from '../assets/videos/myvideo.mp4';
+
 import pelifts  from '../assets/images/pelifts.jpg';
 import Phoenixcover   from '../assets/images/phoenixcover.jpg';
 import ur9group  from '../assets/images/ur9website.jpg';
@@ -74,7 +74,7 @@ Phoenixcover,ur9group,Smiggle1,Smiggle2,Smiggle3,Smiggle4,Sures1,Sures2,RWA,DECO
 // Partners
 Aboutimg,
 Ur9, Phoenixs, Qlogo, Fgroup, Dtech, Pelifts, Smiggle, NMI,
-Myvide,
+
 // team
 Osaz, Chimex, James, Precious
 };
