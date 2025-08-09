@@ -12,6 +12,7 @@ import Contact from "./pages/contact";
 import Home from "./pages/home";
 import NotFound from "./pages/not-found";
 import SingleService from "./pages/singleservice";
+import ScrollTop from "./components/scroll";
 function App() {
   return (
   
@@ -29,6 +30,7 @@ function App() {
         </Routes>
 
         <Footer />
+        <ScrollTop />
       </>
   
   );

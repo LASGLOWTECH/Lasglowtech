@@ -2,13 +2,12 @@ import { useState } from "react";
 import Marquee from "react-fast-marquee";
 import { FaCircle } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
-import { Graphic1,Graphic2, Web1, Mobile1 } from "../images";
+import { pelifts,heroimage,fiftyreign,Fhemfelhomes,
+Phoenixcover,ur9group,Smiggle1,Smiggle2,Smiggle3,Smiggle4,Sures1,Sures2 } from "../images";
 import { Link } from "react-router-dom";
 const images = [
-    Graphic1,
-    Graphic2,
-    Web1,
-    Mobile1
+    pelifts,heroimage,fiftyreign,Fhemfelhomes,
+Phoenixcover,ur9group,Smiggle1,Smiggle2,Smiggle3,Smiggle4, Sures1,Sures2
 ];
 
 const Servicesslide = () => {

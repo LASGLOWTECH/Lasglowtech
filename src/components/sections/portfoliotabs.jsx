@@ -1,17 +1,54 @@
 import React, { useState } from 'react';
 import PortfolioCard from '../portfoliocards';
-import { Graphic1,Graphic2, Web1, Mobile1 } from "../images";
-const tabs = ['All', 'Branding', 'Videos', 'Graphics', 'Web/UI'];
+import {pelifts,heroimage,fiftyreign,Fhemfelhomes,
+Phoenixcover,ur9group,Smiggle1,Smiggle2,Smiggle3,Smiggle4,RWA,DECOT,
+Austinport, } from "../images";
+const tabs = ['All', 'Branding', 'Websites', 'Graphics', 'Web/UI'];
 
 const portfolioData = {
+
+
+
+
+  
+  Websites : [
+    {
+      image: ur9group,
+      description: 'UR9 Group',
+      link: 'https://ur9group.com',
+    },
+    {
+      image: Phoenixcover,
+      description: 'Phoenixs Tech, Poland',
+      link: 'https://phoenixstech.com',
+    },
+    {
+      image: Austinport,
+      description: 'Personal Portfolio',
+      link: 'https://austinosaz.vercel.app',
+    },
+
+
+    {
+      image: RWA,
+      description: 'Renaissance Web3 African (ongoing)',
+      link: 'https://renaissanceweb3afrik.com/',
+    },
+
+    {
+      image: DECOT,
+      description: 'Decot Tech',
+      link: 'https://decot-technology.com/',
+    },
+  ],
   Branding: [
     {
-      image: Graphic1,
+      image: '',
       description: 'Brand kit design for crypto startup.',
       link: 'https://example.com/branding1',
     },
     {
-      image: Graphic2,
+      image: '',
       description: 'Logo redesign for SaaS company.',
       link: 'https://example.com/branding2',
     },
@@ -21,23 +58,6 @@ const portfolioData = {
       image: '/projects/graphic1.jpg',
       description: 'Social media flyer for campaign.',
       link: 'https://example.com/graphic1',
-    },
-  ],
-  Web : [
-    {
-      image: '/projects/web1.jpg',
-      description: 'Corporate website for tech company.',
-      link: 'https://example.com/web1',
-    },
-    {
-      image: '/projects/graphic2.jpg',
-      description: 'Event poster for virtual summit.',
-      link: 'https://example.com/graphic2',
-    },
-    {
-      image: '/projects/graphic3.jpg',
-      description: 'Giveaway banner for ecommerce brand.',
-      link: 'https://example.com/graphic3',
     },
   ],
   'Web/UI': [
@@ -51,6 +71,8 @@ const portfolioData = {
       description: 'Portfolio site for designer.',
       link: 'https://example.com/webui2',
     },
+
+    
   ],
 };
 
@@ -83,7 +105,7 @@ const PortfolioTabs = () => {
       </div>
 
       {/* Grid layout */}
-<div className='mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 py-16 items-center'>
+<div className='mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 py-16 items-center'>
 
 
 

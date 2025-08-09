@@ -12,7 +12,7 @@ const About = () => {
   const refreshAOS = useAOS();
 
   return (
-    <div className="relative bg-gradient-to-r from-bgcolor2 to-bgcolor2 px-6 md:px-20 mx-auto py-16">
+    <div className="relative bg-gradient-to-r from-bgcolor2 to-bgcolor2 px-6 md:px-20 mx-auto py-6">
       {/* SEO Tags */}
       <SEO
         title="About Us | Lasglotech"

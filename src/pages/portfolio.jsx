@@ -13,7 +13,7 @@ import CompanySlider from "../utils/slideshow";
 export default function Portfolio() {
     const refreshAOS = useAOS();
     return (
-        <div className="min-h-screen  py-16 bg-gradient-to-r from-bgcolor to-bgcolor2  px-4 sm:px-6">
+        <div className="min-h-screen  py-6 bg-gradient-to-r from-bgcolor to-bgcolor2  px-4 sm:px-6">
 
             <SEO
                 title="Lasglowtech | Portfolio"

@@ -17,7 +17,7 @@ const PortfolioCard = ({ image, alt, description, link, delay = 0 }) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-4 py-2 text-sm font-medium bg-Primarycolor  text-textcolor2 rounded hover:bg-Secondarycolortransition"
+          className="inline-block px-4 py-2 text-sm font-medium bg-Primarycolor  text-textcolor2 rounded-md hover:bg-Secondarycolor transition"
         >
           View Project
         </a>

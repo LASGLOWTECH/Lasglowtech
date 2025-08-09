@@ -1,5 +1,6 @@
 // images.js
 import HeroImage from '../assets/images/image.svg';
+import Gradient from '../assets/images/gradient.png';
 import Land2 from '../assets/images/Land2.jpg';
 import Land3 from '../assets/images/Land3.jpg';
 import Land1 from '../assets/images/Land1.jpg';
@@ -22,15 +23,28 @@ import Dtech from '../assets/images/Decottech.png';
 import Pelifts from '../assets/images/Pelifts.png';
 import Smiggle from '../assets/images/Smiggle.png';
 import NMI from '../assets/images/NMI.png';
-import Gradient from '../assets/images/gradient.png';
+import Fhemfelhomes from '../assets/images/fhemfelhomes.jpg';
+import Smiggle1 from '../assets/images/SM120325.jpg';
+import Smiggle2 from '../assets/images/SM060527.jpg';
+import Smiggle3 from '../assets/images/SM280325.jpg';
+import Smiggle4 from '../assets/images/SM280326.jpg';
+import heroimage from '../assets/images/heroimage.jpg';
+import fiftyreign  from '../assets/images/50reign.jpg';
 import Myvide  from '../assets/videos/myvideo.mp4';
+import pelifts  from '../assets/images/pelifts.jpg';
+import Phoenixcover   from '../assets/images/phoenixcover.jpg';
+import ur9group  from '../assets/images/ur9website.jpg';
 import Aboutimg  from '../assets/images/Aboutimg.jpg';
 // Team images
 import Osaz from '../assets/images/Austinosaz.jpg';
 import Chimex from '../assets/images/Chimex.jpg';
 import James from '../assets/images/James.jpg';
 import Precious from '../assets/images/Precious.jpg';
-
+import Austinport from '../assets/images/portfolio.jpg';
+import Sures1 from '../assets/images/SSW01.jpg';
+import Sures2 from '../assets/images/SSW02.jpg';
+import RWA from '../assets/images/Rwacover.png';
+import DECOT from '../assets/images/Decotechcover.png';
 export {
   // NAVS
   LOGO,
@@ -43,18 +57,24 @@ export {
   Web1,
   Land2,
   Land3,
+  Austinport,
   // Vertical
   Slide1,
   Slide2,
   Slide3,
 Contactimg,
+Gradient,
+
+// section of works
+pelifts,heroimage,fiftyreign,Fhemfelhomes,
+Phoenixcover,ur9group,Smiggle1,Smiggle2,Smiggle3,Smiggle4,Sures1,Sures2,RWA,DECOT, CEO,
 
 // ABOUT Us
-CEO,
+
 // Partners
 Aboutimg,
 Ur9, Phoenixs, Qlogo, Fgroup, Dtech, Pelifts, Smiggle, NMI,
-Myvide, Gradient,
+Myvide,
 // team
 Osaz, Chimex, James, Precious
 };

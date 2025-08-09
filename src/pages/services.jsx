@@ -6,55 +6,8 @@ import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import useAOS from "../hooks/useAos";
 import { FaCircle } from "react-icons/fa";
+import TestimonialSection from "../components/sections/TestimonialSection";
 
-
-// const services = [
-//     {
-//         title: "Web Development",
-//         description:
-//             "Custom, responsive websites built with modern technologies to help your business grow online.",
-//         icon: (
-//             <svg className="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-//                 <path d="M3 4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1H4a1 1 0 01-1-1V4z" />
-//                 <path d="M8 21V11h8v10" />
-//             </svg>
-//         ),
-//     },
-//     {
-//         title: "E-Commerce Solutions",
-//         description:
-//             "Robust online stores with secure payment integration and seamless user experience.",
-//         icon: (
-//             <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-//                 <path d="M3 3h2l.4 2M7 13h10l4-8H5.4" />
-//                 <circle cx="7" cy="21" r="1" />
-//                 <circle cx="17" cy="21" r="1" />
-//             </svg>
-//         ),
-//     },
-//     {
-//         title: "SEO Optimization",
-//         description:
-//             "Improve your website’s visibility and ranking on search engines with our expert SEO services.",
-//         icon: (
-//             <svg className="w-10 h-10 text-yellow-500" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-//                 <path d="M12 20l9-5-9-5-9 5 9 5z" />
-//                 <path d="M12 12V4" />
-//             </svg>
-//         ),
-//     },
-//     {
-//         title: "Maintenance & Support",
-//         description:
-//             "Ongoing website updates, security monitoring, and technical support for peace of mind.",
-//         icon: (
-//             <svg className="w-10 h-10 text-purple-600" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-//                 <path d="M12 8v4l3 3" />
-//                 <circle cx="12" cy="12" r="10" />
-//             </svg>
-//         ),
-//     },
-// ];
 const services = [
   {
     title: "Web Development Solutions",
@@ -98,7 +51,7 @@ export default function Services() {
 
   const [active, setActive] = useState(0);
   return (
-    <div className=" min-h-screen  py-16 bg-gradient-to-r from-bgcolor to-bgcolor2"
+    <div className=" min-h-screen  py-6 bg-gradient-to-r from-bgcolor to-bgcolor2"
     >
 
 
@@ -137,7 +90,8 @@ export default function Services() {
 
 
         <div className=" px-6  py-6 mx-auto ">
-          <h1 className="text-3xl font-medium text-center text-textcolor2 mb-4">Digital Solutions</h1>
+         
+                    <h2 className="text-3xl  t md:text-5xl  font-medium text-textcolor2  text-center leading-tight   mb-6 ">Digital Solutions</h2>
           <p className="mx-auto text-gray-400  md: max-w-lg text-center mb-12">
             We offer a wide range of services to help your business succeed online. use ther buttons to navigate our variious services
           </p>
@@ -203,7 +157,7 @@ export default function Services() {
       </div>
 
 
-
+<TestimonialSection/>
 
 
 

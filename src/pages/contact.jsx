@@ -151,7 +151,7 @@ const Contact = () => {
        
 
       {/* Contact Section */}
-      <div className="relative z-10 bg-gradient-to-r from-bgcolor2 to-bgcolor2  px-4 py-16  md:px-20">
+      <div className="relative z-10 bg-gradient-to-r from-bgcolor2 to-bgcolor2  px-4 py-6 md:px-20">
 <div
         className="inset-0 bg-cover bg-center opacity-10 z-0"
         style={{ backgroundImage: `url(${HeroImage})` }}
@@ -159,7 +159,7 @@ const Contact = () => {
 
 
         {/* Header */}
-      <section className="flex flex-col  items-center justify-center py-16 mt-16  mx-auto shadow-sm">
+      <section className="flex flex-col  items-center justify-center py-16   mx-auto shadow-sm">
         <h1 className="text-6xl text-textcolor2 font-semibold" data-aos="fade-up">Contact Us</h1>
 
 

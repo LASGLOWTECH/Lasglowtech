@@ -66,6 +66,13 @@ const SingleService = () => {
                                 <li key={index}>{feature}</li>
                             ))}
                         </ul>
+
+                         <Link
+                                      to="/contact"
+                                      className="inline-block mt-12 px-8 py-3 bg-gradient-to-r from-Primarycolor to-Primarycolor1 hover:from-Secondarycolor hover:to-Secondarycolor shadow-lg text-white font-semibold rounded-full transition-all duration-300"
+                                    >
+                                      Consult Now
+                                    </Link>
                     </div>
                 )}
 

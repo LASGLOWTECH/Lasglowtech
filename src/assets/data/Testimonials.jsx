@@ -1,48 +1,50 @@
 
-import { Frame1, Frame2, Frame3 } from "../../components/images";
-import { Image4 } from "../../components/images";
+import {  Ur9, Phoenixs, Qlogo, Fgroup , Dtech, Pelifts, Smiggle, NMI} from "../../components/images";
 
 const Testimony = [
     {
         id: 1,
-        name: "Sarah Thompson",
-        role: "Head of Customer Relations, FinTech Solutions",
-        image: Frame2, // Replace with actual image
+        name: "Ur9 Group",
+        role: "CEO",
+        image: Ur9, // Replace with actual image
         text:
-            "The team exceeded our expectations, delivering exceptional support that helped us scale our customer service operations globally. Their professionalism and expertise are unmatched.",
+            "Worked on our first site as at 2023, and rebranding of some sectors of my company",
 
         previews: [
-            Frame3,
-            Frame1
+            Fgroup,
+            Phoenixs,
         ]
     },
     {
         id: 2,
-        name: "Daniel Brooks",
-        role: "CX Manager, TechPulse",
-        image: Image4,
+        name: "FhemfelGroup",
+        role: "REX Eddy",
+        image: Fgroup,
         text:
-            "Amazing experience! Their customer service solutions helped us streamline our workflow and build better customer trust.",
+            "Worked Fhemfel Group as well as other sectors of the company with maximum creativity in  every aspect",
         previews: [
-            Image4,
-            Image4
-        ]
+           Ur9,
+            Phoenixs,
+        ] 
 
     },
-    {
+
+
+     {
         id: 3,
-        name: "Linda Ray",
-        role: "Operations Lead, SoftCom",
-        image: Frame2,
+        name: "Phoenixs Tech",
+        role: "Admin",
+        image: Phoenixs,
         text:
-            "Highly professional and always on time. A truly multilingual support team with outstanding results.",
-
+            "Timely delivery of our customer Service website, ",
         previews: [
-            Frame2,
-            Frame2
-        ]
+           Fgroup,
+            Ur9,
+        ] 
 
     },
+    
+    
 ]
 
 export default Testimony;
